@@ -7,7 +7,7 @@ export default function Banner(){
     <div id="home" className='section container mx-auto max-w-[1200px] px-3 items-center'>
         <div className='w-full'data-aos="zoom-in">
             <div className='block text-center font-secondary font-black text-[30px]'>
-                Hello, i am TEST
+                Hello, i am TEST 3
                 <div>
                     <TypeAnimation
                     sequence={[
