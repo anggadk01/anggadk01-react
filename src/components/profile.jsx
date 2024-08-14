@@ -4,7 +4,7 @@ import {Button} from '@mui/material';
 
 export default function Profile(){
     return(
-        <div id="profile" className='section'>
+        <div id="profile" className='section mb-[50px]'>
             <div className='container mx-auto max-w-[1200px] p-3 overflow-hidden'>
                 <div className='font-secondary text-center font-bold mb-1'
                     data-aos="zoom-in-down"
@@ -16,7 +16,7 @@ export default function Profile(){
                         My knowhow list: </h2>
                     <div className='text-center w-full text-white rounded-full px-2 py-3 inline-block'>
                         <a>
-                            <Button variant="contained" a href="images/Angga Dwi Kurniawan-resume update.pdf" target="_blank" rel="noopener noreferrer">
+                            <Button variant="contained" a href="images/Angga Dwi Kurniawan-resume-3.pdf" target="_blank" rel="noopener noreferrer">
                                 Resume
                             </Button> {''}
                             <Button variant="contained" a href="https://www.linkedin.com/in/anggadwikurniawan01/details/certifications/" target="_blank" rel="noopener noreferrer">
@@ -90,21 +90,6 @@ export default function Profile(){
                                 </div>
                             </div>
 
-                            <div className='w-full'>
-                                <div className='bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group'>
-                                    <img src="images/java.png" alt="" />
-                                    <div className='absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear'>
-                                        <div className='text-center w-full text-white'>
-                                            <div className='bg-white rounded-full px-5 py-2 inline-block mb-2'>
-                                                <h4 className='text-gradient'>
-                                                    Java
-                                                </h4>
-                                            </div>
-                                            {/* <p>Lorem, ipsum dolor sit amet consectetur</p> */}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div className='w-full'>
                                 <div className='bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group'>

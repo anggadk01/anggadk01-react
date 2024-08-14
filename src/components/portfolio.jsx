@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Portfolio(){
     return(
-        <div id='portfolio' className='section'>
+        <div id='portfolio' className='section mb-[50px]'>
             <div className='container mx-auto max-w-[1200px] px-3 pt-3 pb-500'>
                 <div className='flex flex-col lg:align-center lg:flex-row justify-between mb-[50px]'
                     data-aos="fade-down"
@@ -19,7 +19,7 @@ export default function Portfolio(){
                     </div>
                     <div className='order-1 lg:order-2 text-center'>
                         <h2 className='text-gradient font-primary max-w-[700px] mx-auto text-[50px]'>
-                            06
+                            07
                         </h2>
                         <div>Completed Projects</div>
                     </div>
@@ -172,6 +172,30 @@ export default function Portfolio(){
                                     <p>
                                         This Simple CRUD API project is made to test CRUD function with 3 variables Name, Email, and Phone Number using Postman
 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='w-full'>
+                        <div className='bg-white h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group'>
+                            <img src="images/training_root.png" alt=""/>
+                            <div className='absolute p-5 backdrop-blur-xl bg-primary w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear'>
+                                <div className='text-center w-full text-white'>
+                                    <div id="odoo"className='bg-white rounded-full px-1 py-2 inline-block mb-2'>
+                                    <h4 className='text-gradient'>
+                                            LMS Project
+                                        </h4>
+
+                                        <div>
+                                          <a href="https://github.com/anggadk01/LMS-Project/tree/main" target="_blank" rel="noopener noreferrer">
+                                        <button className='text-gradient'>Click</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Here is a project for an LMS website that has already been integrated with Odoo at PT. MAP.
                                     </p>
                                 </div>
                             </div>
