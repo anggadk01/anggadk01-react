@@ -16,7 +16,7 @@ export default function Profile(){
                         My knowhow list: </h2>
                     <div className='text-center w-full text-white rounded-full px-2 py-3 inline-block'>
                         <a>
-                            <Button variant="contained" a href="images/Angga Dwi Kurniawan-resume-3.pdf" target="_blank" rel="noopener noreferrer">
+                            <Button variant="contained" a href="images/Angga Dwi Kurniawan_resume_fix.pdf" target="_blank" rel="noopener noreferrer">
                                 Resume
                             </Button> {''}
                             <Button variant="contained" a href="https://www.linkedin.com/in/anggadwikurniawan01/details/certifications/" target="_blank" rel="noopener noreferrer">

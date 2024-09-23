@@ -27,9 +27,10 @@ export default function Banner(){
                 </div>
             </div>
                 <div className='max-w-[750px] text-center mx-auto mt-5'>
-                I am a recent graduate with a degree in Informatics Engineering, passionate about technology and software development. I 
-                am currently honing my skills and seeking new experiences
+                I am a graduate of Informatics Engineering from Perbanas Institute Jakarta with a GPA of 3.63. With experience as an ITDS Staff at <b>PT. Mitra Asa Pratama</b>, I developed new features, handled bugs, and resolved hardware and software issues in Odoo. I also interned at <b>PT. Hashmicro Solusi Indonesia</b> and participated in <b>Bangkit Academy</b> with a focus on the Machine Learning learning path.<div> <p>I have skills in Python, MySQL, HTML, CSS, and web design. I am highly adaptable, able to work effectively in teams, and manage my time efficiently.</p></div>
                 </div>
+                {/* I am a recent graduate with a degree in Informatics Engineering, passionate about technology and software development. I 
+                am currently honing my skills and seeking new experiences */}
         </div>
     </div>
     )
