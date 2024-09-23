@@ -4,11 +4,53 @@ export default function Portfolio(){
     return(
         <div id='portfolio' className='section mb-[50px]'>
             <div className='container mx-auto max-w-[1200px] px-3 pt-3 pb-500'>
+            <div className='flex flex-col lg:align-center lg:flex-row justify-between mb-[50px]'
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                >   <div>
+                    <div className='order-2 lg:order-1 pt-9 mt-9'>
+                        <h4 className='text-secondary font-secondary text-[24px]'>
+                        </h4>
+                        <div className='text-gradient font-primary max-w-[700px] mx-auto text-[24px]'>    
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div className='order-1 lg:order-2 text-center'>
+                        <h2 className='text-gradient font-primary max-w-[700px] mx-auto text-[50px]'>
+                        
+                        </h2>
+                        <div></div>
+                    </div>
+                    </div>
+                </div>
                 <div className='flex flex-col lg:align-center lg:flex-row justify-between mb-[50px]'
                     data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1000"
-                >
+                >   <div>
+                    <div className='order-2 lg:order-1 pt-9 mt-9'>
+                        <h4 className='text-secondary font-secondary text-[24px]'>
+                        </h4>
+                        <div className='text-gradient font-primary max-w-[700px] mx-auto text-[24px]'>    
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div className='order-1 lg:order-2 text-center'>
+                        <h2 className='text-gradient font-primary max-w-[700px] mx-auto text-[50px]'>
+                        
+                        </h2>
+                        <div></div>
+                    </div>
+                    </div>
+                </div>
+                <div className='flex flex-col lg:align-center lg:flex-row justify-between mb-[50px]'
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                >   <div>
                     <div className='order-2 lg:order-1 pt-9 mt-9'>
                         <h4 className='text-secondary font-secondary text-[24px]'>
                             Recent Work
@@ -17,11 +59,14 @@ export default function Portfolio(){
                             
                         </div>
                     </div>
+                    </div>
+                    <div>
                     <div className='order-1 lg:order-2 text-center'>
                         <h2 className='text-gradient font-primary max-w-[700px] mx-auto text-[50px]'>
                             07
                         </h2>
                         <div>Completed Projects</div>
+                    </div>
                     </div>
                 </div>
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-3 text-center'

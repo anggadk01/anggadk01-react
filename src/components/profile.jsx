@@ -36,7 +36,7 @@ export default function Profile(){
                         <div className='min-w-[300px] min-h-[300px] bg-gradient pt-[50px] rounded-full overflow-hidden'>
                             <img src="images/deka01.png" alt="" />
                         </div>
-                        <h2 className='text-gradient text-[30px] mt-[20px]'>Angga Dwi Kurniawan</h2>
+                        <h2 className='text-gradient text-[30px] mt-[20px] mb-[30px]'>Angga Dwi Kurniawan</h2>
                         {/* <div>
                         <a href="https://github.com/anggadk01/kekadk.io/blob/main/assets/images/Angga%20Dwi%20Kurniawan-resume.pdf" target="_blank" rel="noopener noreferrer">
                             <Button variant="contained" a href="https://github.com/anggadk01/kekadk.io/blob/main/assets/images/Angga%20Dwi%20Kurniawan-resume.pdf">
@@ -202,8 +202,6 @@ export default function Profile(){
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
